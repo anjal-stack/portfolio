@@ -43,7 +43,7 @@
   text-align: center;
   margin: 0;
   padding: 0;
- 
+
 }
 
 .main-content h1 {
@@ -58,7 +58,8 @@
   justify-content: space-between;
   padding: 60px 100px;
   background-color: rgb(186, 214, 209);
-  max-height: fit-content;
+  height: 517px;
+  box-sizing: border-box;
 }
 
 .text-section h1 {
