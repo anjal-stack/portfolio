@@ -1,0 +1,115 @@
+.contact-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 850px;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.contact-container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(56, 189, 248, 0.25);
+}
+
+.contact-title {
+  font-size: 2.4rem;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 1.05rem;
+  color: #e5e7eb;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.contact-description strong {
+  color: #38bdf8;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #e5e7eb;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+}
+
+.contact-item a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-btn {
+  padding: 14px 32px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 25px rgba(56, 189, 248, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 35px 25px;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-details {
+    gap: 15px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+}
